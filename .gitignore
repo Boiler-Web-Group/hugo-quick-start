@@ -1,0 +1,35 @@
+# Hugo output directories
+/public/
+/resources/
+/hugo_stats.json
+
+# Hugo cache
+/cache/
+
+# Temporary files
+*.log
+*.bak
+*.swp
+
+# Node.js dependencies (if using npm/yarn for assets)
+node_modules/
+package-lock.json
+yarn.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Git submodules (optional: if you don't want to track theme updates)
+themes/*/
+!themes/exampleTheme/  # Keep a specific theme if needed
+
+# Build artifacts
+*.tar.gz
+*.zip
+*.gz
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
